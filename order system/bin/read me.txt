@@ -1,0 +1,33 @@
+To get in to the system:
+1.	Click EnTrance.java class, and Run it.
+2.	Click Log In Button in the Welcome window.
+
+Requirements:
+1.	Construct an empty bakery
+When user log in to the system, a new bakery is already there.
+
+2.	Initialize bakery from two files: 
+click ¡°ImportData¡± button in the OrderList window, then you can see all order data has shown in the OrderList window. User can click ¡°Item manager¡± button or ¡°Customer manager¡± button to check Item list or customer list.
+
+3.	Add new customers to the bakery. 
+Open ¡°customer manager¡±, and click ¡°add/edit customer¡± button, input information and click ¡°add¡±, then a new customer has been added;
+
+4.	Update customer: 
+in the Customer manager, Select a customer already in the list, and make the line orange, then click ¡°add/edit customer¡± button and change information in the window, and then you finish, click ¡°add¡±. Then a customer has been updated.
+
+5.	Add new orders. 
+First select a customer already in the customer manager list, then click ¡°new Order¡± button, in put information. When finished, click ¡°confirm button¡± . at the same time, a new receipt will be showen. (note: please watch out the input data format).
+
+6.	Update orders. 
+In the OrderList window, input an order id in the text field and click ¡°Edit Order¡± button to edit Order. When finish edit, click ¡°Confirm¡± button. (make sure the order number is valid).
+
+7&8.    Add and edit new bakery items: 
+open Itmemanager, click button ¡°add/edit item¡±, fill the information. When you finish, click ¡°add¡± button to confirm your add/edit. (note, if the list already have the itemId, then the new information will cover the old one).
+
+9.  Search Orders: 
+click ¡°Order Filter¡± button in the OrderList to open the Order filter, user can Search orders by CustomerID, PickUp Date, OrderDate, ItemId and the filter can also show all the unpaid orders.
+
+10. Output current state of system into two files.
+ Click Button ¡°Export orders && ItemsList¡±, then the Export files should in the project folder.files named:"bakeryItemsOutput.txt" and "ordersOutput.txt".
+
+
